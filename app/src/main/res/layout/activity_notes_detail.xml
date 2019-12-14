@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/tdTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:paddingTop="100dp"
+        android:id="@+id/tdContent"
+        android:layout_width="wrap_content"
+        android:layout_height="268dp"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:text="TextView"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:id="@+id/tdTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+</LinearLayout>
